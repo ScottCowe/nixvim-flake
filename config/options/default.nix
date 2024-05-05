@@ -1,5 +1,8 @@
 {
   globals.mapleader = " ";
+
+  viAlias = true;
+  vimAlias = true;
   
   opts = {
     number = true;
