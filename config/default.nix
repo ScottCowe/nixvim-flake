@@ -4,6 +4,7 @@
     ./colorscheme
     ./lsp
     ./cmp
+    ./treesitter
     ./telescope
     ./lualine
     ./comment
