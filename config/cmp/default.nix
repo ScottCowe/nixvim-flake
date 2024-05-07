@@ -1,7 +1,7 @@
 {
-  plugins.luasnip = {
-    enable = true;
-  };
+  # plugins.luasnip = {
+  #   enable = true;
+  # };
 
   plugins.cmp = {
     enable = true;
@@ -12,7 +12,7 @@
         { name = "nvim_lsp"; }
         { name = "path"; }
         { name = "buffer"; }
-        { name = "luasnip"; }
+        # { name = "luasnip"; }
       ];
 
       mapping = {
