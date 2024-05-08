@@ -21,7 +21,6 @@
       };
 
       # JVM
-      java-language-server.enable = true;
       kotlin-language-server.enable = true;
       
       # Web dev
@@ -30,5 +29,10 @@
       tsserver.enable = true;
       phpactor.enable = true;
     };
+  };
+
+  plugins.nvim-jdtls = {
+    enable = true;
+    data = ".nvim-jdtls";
   };
 }

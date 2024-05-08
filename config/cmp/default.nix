@@ -1,8 +1,8 @@
 {
-  # plugins.luasnip = {
-  #   enable = true;
-  # };
-
+  plugins.luasnip = {
+    enable = true;
+  };
+  
   plugins.cmp = {
     enable = true;
     autoEnableSources = true;
@@ -12,8 +12,16 @@
         { name = "nvim_lsp"; }
         { name = "path"; }
         { name = "buffer"; }
-        # { name = "luasnip"; }
+        { name = "luasnip"; }
       ];
+
+      snippet = {
+        expand = ''
+          function(args) 
+            require('luasnip').lsp_expand(args.body) 
+          end
+        '';
+      };
 
       mapping = {
         "<CR>" = "cmp.mapping.confirm({ select = true })";
