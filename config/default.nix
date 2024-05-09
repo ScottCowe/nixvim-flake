@@ -10,5 +10,6 @@
     ./comment
     ./nvim-autopairs
     ./gitsigns
+    ./indent-blankline
   ];
 }
