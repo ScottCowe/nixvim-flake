@@ -11,5 +11,6 @@
     ./nvim-autopairs
     ./gitsigns
     ./indent-blankline
+    ./presence-nvim
   ];
 }
