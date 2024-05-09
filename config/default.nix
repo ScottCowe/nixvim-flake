@@ -10,6 +10,5 @@
     ./comment
     ./nvim-autopairs
     ./gitsigns
-    ./virt-column
   ];
 }
