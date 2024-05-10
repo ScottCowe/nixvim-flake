@@ -46,6 +46,10 @@
           action = "<Cmd>lua require'jdtls'.organize_imports()<CR>";
           key = "<leader>o";
         }
+        {
+          action = "<cmd>lua require('lsp_lines').toggle()<CR>";
+          key = "<leader>ll";
+        }
       ];
     };
   };
@@ -53,5 +57,9 @@
   plugins.nvim-jdtls = {
     enable = true;
     data = ".nvim-jdtls";
+  };
+  
+  plugins.lsp-lines = {
+    enable = true;
   };
 }
