@@ -40,6 +40,13 @@
         "<leader>r" = "rename";
         "<leader>a" = "code_action";
       };
+
+      extra = [ 
+        {
+          action = "<Cmd>lua require'jdtls'.organize_imports()<CR>";
+          key = "<leader>o";
+        }
+      ];
     };
   };
 
