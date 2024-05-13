@@ -1,3 +1,4 @@
+{ helpers, ...}: 
 {
   plugins.lsp = {
     enable = true;
@@ -43,7 +44,7 @@
 
       extra = [ 
         {
-          action = "<Cmd>lua require'jdtls'.organize_imports()<CR>";
+          action = "<cmd>lua require'jdtls'.organize_imports()<CR>";
           key = "<leader>o";
         }
         {
@@ -57,6 +58,9 @@
   plugins.nvim-jdtls = {
     enable = true;
     data = ".nvim-jdtls";
+    # Just gotta live with it ig (for now)
+    # rootDir = { __raw = "require('jdtls.setup').find_root({'.git', 'mvnw', 'gradlew'})"; };
+    # rootDir = helpers.mkRaw "require('jdtls.setup').find_root({'.git', 'mvnw', 'gradlew'})";
   };
   
   plugins.lsp-lines = {

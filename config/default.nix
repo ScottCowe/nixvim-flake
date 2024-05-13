@@ -12,5 +12,6 @@
     ./gitsigns
     ./indent-blankline
     ./presence-nvim
+    ./neogit
   ];
 }
