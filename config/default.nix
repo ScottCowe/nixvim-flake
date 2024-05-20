@@ -13,5 +13,6 @@
     ./indent-blankline
     ./presence-nvim
     ./neogit
+    ./hardtime
   ];
 }
