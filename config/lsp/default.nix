@@ -5,7 +5,7 @@
 
     servers = {
       # Config / scripting
-      nil_ls.enable = true;
+      nil-ls.enable = true;
       lua-ls.enable = true;
       pylsp.enable = true;
       jsonls.enable = true;
