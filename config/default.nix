@@ -1,7 +1,6 @@
 { 
   imports = [ 
     ./options
-    ./colorscheme
     ./lsp
     ./cmp
     ./treesitter
