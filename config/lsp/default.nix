@@ -29,6 +29,9 @@
       cssls.enable = true;
       tsserver.enable = true;
       phpactor.enable = true;
+
+      # TeX
+      texlab.enable = true;
     };
 
     keymaps = {
@@ -49,7 +52,7 @@
         }
         {
           action = "<cmd>lua require('lsp_lines').toggle()<CR>";
-          key = "<leader>ll";
+          key = "<leader>sl";
         }
       ];
     };

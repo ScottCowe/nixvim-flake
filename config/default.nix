@@ -13,5 +13,6 @@
     ./presence-nvim
     ./neogit
     ./hardtime
+    ./vimtex
   ];
 }
