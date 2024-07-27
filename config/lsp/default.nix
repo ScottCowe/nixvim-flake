@@ -1,4 +1,3 @@
-{ helpers, ...}: 
 {
   plugins.lsp = {
     enable = true;
@@ -52,7 +51,7 @@
         }
         {
           action = "<cmd>lua require('lsp_lines').toggle()<CR>";
-          key = "<leader>sl";
+          key = "<leader>ll";
         }
       ];
     };
