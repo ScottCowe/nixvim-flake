@@ -14,5 +14,6 @@
     ./neogit
     ./hardtime
     ./vimtex
+    ./ts-autotag
   ];
 }
